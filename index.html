@@ -3,173 +3,360 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>吉林公务员,公考报名时间,吉林省考试报名入口</title>
-    <meta name="description" content="吉林省考社群，专注吉林公务员考试备考交流，提供行测、申论、面试真题及时政热点资料分享。">
-    <meta name="keywords" content="吉林省考,吉林公务员,吉林事业单位,行测,申论,面试,备考资料">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吉林省考,吉林省公务员</title>
+    <meta name="keywords" content="吉林省考,吉林公务员省考,备考搭子,企业微信备考群,行测申论,考友组队">
+    <meta name="description" content="查找吉林各地省考备考搭子，加入企业微信备考社群，按地市、备考模块、搭子状态快速找组织。">
+    <!-- 静态资源 -->
     <link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        body { font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", "微软雅黑", Arial, sans-serif; }
-        .navbar-default { background-color: #ffffff; border-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-        .navbar-brand { font-weight: bold; color: #2c3e50 !important; }
-        .jumbotron { background-color: #f8f8f8; margin-bottom: 0; padding: 80px 0; border-radius: 0; }
-        .jumbotron h1 { color: #2c3e50; font-weight: 300; }
-        .jumbotron .lead { color: #7f8c8d; font-weight: 300; }
-        .section { padding: 60px 0; }
-        .section-title { color: #2c3e50; font-weight: 300; margin-bottom: 40px; text-align: center; }
-        .section-title small { color: #95a5a6; display: block; margin-top: 10px; }
-        .feature-item { text-align: center; padding: 20px; }
-        .feature-item .fa { color: #2c3e50; margin-bottom: 20px; }
-        .feature-item h4 { color: #2c3e50; font-weight: 400; }
-        .feature-item p { color: #7f8c8d; font-weight: 300; }
-        .resource-list { list-style: none; padding-left: 0; }
-        .resource-list li { padding: 12px 0; border-bottom: 1px solid #ecf0f1; color: #34495e; }
-        .resource-list li .fa { color: #2c3e50; margin-right: 10px; }
-        .btn-primary { background-color: #2c3e50; border-color: #2c3e50; }
-        .btn-primary:hover, .btn-primary:focus { background-color: #1a252f; border-color: #1a252f; }
-        footer { background-color: #2c3e50; color: #bdc3c7; padding: 30px 0; text-align: center; font-size: 13px; }
-        footer a { color: #ecf0f1; }
-        footer a:hover { color: #ffffff; text-decoration: none; }
-        footer .record { margin-top: 8px; font-size: 12px; }
-        footer .beian { display: inline-block; margin: 0 8px; }
+        :root{--brand:#1a6fd4;--brand-dark:#135ba8;--ink:#1d2125;--gray:#767d84;--line:#eef0f3;}
+        html{scroll-behavior:smooth;}
+        body{padding-top:58px;font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:var(--ink);background:#fbfcfd;-webkit-font-smoothing:antialiased;line-height:1.8;}
+        a{color:var(--brand);transition:color .2s;}
+        a:hover,a:focus{color:var(--brand-dark);text-decoration:none;}
+        .container{max-width:1140px;}
+
+        /* 导航 */
+        .navbar-min{border:0;background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(8px);margin-bottom:0;border-radius:0;box-shadow:0 1px 0 var(--line);transition:box-shadow .25s;}
+        .navbar-min.scrolled{box-shadow:0 2px 14px rgba(16,24,40,.08);}
+        .navbar-min .navbar-brand{font-weight:700;font-size:16px;letter-spacing:.5px;color:var(--ink);}
+        .navbar-min .navbar-brand .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--brand);margin-right:7px;vertical-align:2px;}
+        .navbar-min .nav>li>a{color:var(--gray);font-size:14px;padding:19px 15px;}
+        .navbar-min .nav>li>a:hover,.navbar-min .nav>li>a:focus{color:var(--ink);background:transparent;}
+        .navbar-min .nav>li>a:after{content:"";display:block;height:2px;width:0;background:var(--brand);margin:4px auto 0;transition:width .22s;}
+        .navbar-min .nav>li>a:hover:after{width:18px;}
+        .navbar-min .nav>li.active>a{color:var(--brand);font-weight:600;background:transparent;}
+        .navbar-min .nav>li.active>a:after{width:18px;}
+        .navbar-min .navbar-toggle{border-color:#e3e6e9;margin-top:11px;}
+        .navbar-min .navbar-toggle .icon-bar{background:#5b6268;}
+
+        /* 区块 */
+        .section{padding:64px 0;scroll-margin-top:58px;}
+        .section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+        .section-head{text-align:center;margin-bottom:40px;}
+        .section-title{font-size:25px;font-weight:700;letter-spacing:1px;margin:0 0 14px;}
+        .section-title:after{content:"";display:block;width:34px;height:2px;background:var(--brand);margin:16px auto 0;border-radius:2px;}
+        .section-sub{color:#949ba1;font-size:14px;margin:0;}
+
+        /* Hero */
+        .hero{position:relative;overflow:hidden;padding:66px 0 60px;text-align:center;background:linear-gradient(180deg,#f2f7ff 0%,#fbfcfd 100%);border-bottom:1px solid var(--line);}
+        .hero:before,.hero:after{content:"";position:absolute;border-radius:50%;pointer-events:none;}
+        .hero:before{width:520px;height:520px;top:-300px;left:50%;margin-left:-260px;background:radial-gradient(circle,rgba(26,111,212,.12),rgba(26,111,212,0) 68%);}
+        .hero:after{width:260px;height:260px;bottom:-140px;right:-40px;background:radial-gradient(circle,rgba(26,111,212,.10),rgba(26,111,212,0) 70%);}
+        .hero .inner{position:relative;}
+        .badge-pill{display:inline-block;padding:5px 14px;border:1px solid #d7e6fb;background:#fff;color:var(--brand);border-radius:20px;font-size:13px;margin-bottom:20px;}
+        .hero h1{font-size:33px;font-weight:700;letter-spacing:1px;margin:0 0 14px;line-height:1.5;}
+        .hero h1 span{color:var(--brand);}
+        .hero .lead{color:var(--gray);font-size:15px;margin:0 auto 30px;max-width:640px;}
+        .search-box{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px;box-shadow:0 10px 26px rgba(16,24,40,.06);}
+        .search-box .form-control{border:0;box-shadow:none;height:44px;font-size:15px;padding-left:14px;background:transparent;}
+        .search-box .form-control:focus{box-shadow:none;}
+        .search-box .btn{height:44px;padding:0 26px;border-radius:6px;font-size:15px;background:var(--brand);border-color:var(--brand);transition:background .2s,box-shadow .2s;}
+        .search-box .btn:hover{background:var(--brand-dark);border-color:var(--brand-dark);box-shadow:0 8px 20px rgba(26,111,212,.28);}
+        .chips{margin-top:22px;}
+        .chips a{display:inline-block;margin:4px 4px 0;padding:5px 14px;border:1px solid #e3e8ee;background:#fff;border-radius:20px;font-size:13px;color:#6f767c;transition:.2s;}
+        .chips a:hover{border-color:var(--brand);color:var(--brand);background:#f5f9ff;}
+        .chips .t{color:#a5abb1;border:0;background:transparent;margin-right:2px;}
+
+        /* 分类卡 */
+        .cat{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px 24px;height:100%;transition:transform .25s,box-shadow .25s,border-color .25s;}
+        .cat:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(16,24,40,.07);border-color:#d7e6fb;}
+        .cat-head{display:flex;align-items:center;margin-bottom:16px;}
+        .icon-circle{width:42px;height:42px;border-radius:12px;background:#eef4fd;color:var(--brand);font-size:18px;line-height:42px;text-align:center;margin-right:12px;flex:0 0 42px;transition:background .25s,color .25s;}
+        .cat:hover .icon-circle{background:var(--brand);color:#fff;}
+        .cat-head h4{margin:0;font-size:16px;font-weight:600;}
+        .cat-head small{display:block;color:#a5abb1;font-size:12.5px;font-weight:400;}
+        .cat .list-group{margin-bottom:0;}
+        .cat .list-group-item{border:0;border-radius:6px;padding:10px 12px;font-size:14px;color:#5f666c;display:flex;align-items:center;justify-content:space-between;transition:background .2s,color .2s;}
+        .cat .list-group-item:hover{background:#f5f9ff;color:var(--brand);}
+        .cat .list-group-item .n{font-size:12px;color:#b3b9be;}
+        .cat .list-group-item:hover .n{color:var(--brand);}
+        .cat .list-group-item .fa-angle-right{color:#ccd1d6;font-size:13px;opacity:0;transform:translateX(-4px);transition:.2s;}
+        .cat .list-group-item:hover .fa-angle-right{opacity:1;transform:none;}
+        .cat .more{display:block;text-align:center;margin-top:14px;padding-top:14px;border-top:1px dashed var(--line);font-size:13px;}
+
+        /* 搭子卡 */
+        .mate{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px;height:100%;transition:transform .25s,box-shadow .25s,border-color .25s;}
+        .mate:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(16,24,40,.07);border-color:#d7e6fb;}
+        .mate-top{display:flex;align-items:center;margin-bottom:14px;}
+        .avatar{width:42px;height:42px;border-radius:50%;background:#eef4fd;color:var(--brand);font-size:15px;font-weight:600;line-height:42px;text-align:center;margin-right:12px;flex:0 0 42px;}
+        .mate-top h4{margin:0;font-size:15.5px;font-weight:600;}
+        .mate-top small{display:block;color:#a5abb1;font-size:12.5px;}
+        .mate p{margin:0 0 14px;font-size:13.5px;color:#82888d;line-height:1.85;min-height:50px;}
+        .mate-meta{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--line);}
+        .tag{font-size:12px;padding:3px 10px;border-radius:20px;background:#eef4fd;color:var(--brand);}
+        .tag.green{background:#eaf7ee;color:#2a9d4a;}
+        .tag.gray{background:#f2f4f6;color:#8b9196;}
+        .mate-meta .btn{padding:5px 14px;font-size:13px;border-radius:4px;background:var(--brand);border-color:var(--brand);}
+        .mate-meta .btn:hover{background:var(--brand-dark);border-color:var(--brand-dark);}
+        .mate-meta .btn[disabled]{background:#f2f4f6;border-color:#f2f4f6;color:#a5abb1;}
+
+        /* 二维码 */
+        .qr-panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:40px 30px;box-shadow:0 12px 30px rgba(16,24,40,.05);}
+        .qr-panel .qr-img{width:220px;max-width:100%;padding:10px;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 20px rgba(16,24,40,.05);}
+        .qr-list{list-style:none;padding:0;margin:0;}
+        .qr-list li{position:relative;padding:0 0 18px 26px;font-size:14px;color:#82888d;}
+        .qr-list li:before{content:"\f00c";font-family:FontAwesome;position:absolute;left:0;top:1px;color:var(--brand);font-size:13px;}
+        .qr-list li b{color:var(--ink);font-weight:600;}
+        .tips{margin-top:22px;padding:12px 16px;background:#f7f9fc;border-left:3px solid var(--brand);border-radius:0 6px 6px 0;font-size:13px;color:#82888d;}
+
+        /* 页脚 */
+        footer{background:#22262b;color:#8d949a;font-size:13px;padding:40px 0 34px;text-align:center;}
+        .f-logo{color:#fff;font-weight:700;letter-spacing:1px;font-size:15px;margin-bottom:14px;}
+        .f-logo .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--brand);margin-right:7px;vertical-align:2px;}
+        .beian a{color:#8d949a;}
+        .beian a:hover{color:#fff;}
+        .beian .fa{margin-right:3px;}
+        .beian .sep{margin:0 10px;color:#3c4247;}
+        .copy{color:#6c7378;margin-top:6px;}
+
+        /* 回到顶部 */
+        #toTop{position:fixed;right:24px;bottom:28px;width:40px;height:40px;line-height:38px;text-align:center;border:1px solid var(--line);background:#fff;color:#8b9196;border-radius:50%;box-shadow:0 6px 18px rgba(16,24,40,.10);opacity:0;visibility:hidden;transition:.25s;z-index:99;}
+        #toTop.show{opacity:1;visibility:visible;}
+        #toTop:hover{color:#fff;background:var(--brand);border-color:var(--brand);}
+
+        .fade-up{opacity:0;transform:translateY(14px);animation:fadeUp .6s ease forwards;}
+        .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}
+        @keyframes fadeUp{to{opacity:1;transform:none;}}
+
+        @media (max-width:767px){
+            body{padding-top:52px;}
+            .hero{padding:44px 0 40px;}
+            .hero h1{font-size:24px;}
+            .section{padding:44px 0;}
+            .mate p{min-height:0;}
+            .qr-panel{padding:28px 20px;}
+            .f-links a{margin:0 8px;}
+        }
     </style>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navMenu" data-offset="80">
 
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
-                    <span class="sr-only">切换导航</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">吉林公务员</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#about">关于社群 <span class="sr-only">(当前)</span></a></li>
-                    <li><a href="#features">社群特色</a></li>
-                    <li><a href="#resources">备考资源</a></li>
-                    <li><a href="#join">加入我们</a></li>
-                </ul>
-            </div>
+<!-- 导航栏 -->
+<nav class="navbar navbar-min navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navMenu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><span class="dot"></span>吉林省考</a>
         </div>
-    </nav>
-
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h1>吉林省考备考交流社群</h1>
-            <p class="lead">专注吉林公务员考试 · 行测 · 申论 · 面试 · 时政热点</p>
-            <p><a class="btn btn-primary btn-lg" href="#join" role="button">立即加入</a></p>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">首页</a></li>
+                <li><a href="#groups">企微群</a></li>
+                <li><a href="#mate">找搭子</a></li>
+                <li><a href="#qrcode">二维码</a></li>
+            </ul>
         </div>
     </div>
+</nav>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">关于社群<small>About Us</small></h2>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <p class="lead" style="color:#7f8c8d; font-weight:300;">
-                        吉林省考社群是由一批吉林上岸考生自发组建的公益性备考交流社区，旨在为正在备考吉林公务员、事业单位的考生提供一个共享资料、交流经验、共同进步的纯净平台。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="features" class="section" style="background-color:#f8f8f8;">
-        <div class="container">
-            <h2 class="section-title">社群特色<small>Features</small></h2>
-            <div class="row">
-                <div class="col-sm-6 col-md-3 feature-item">
-                    <i class="fa fa-book fa-3x"></i>
-                    <h4>资料共享</h4>
-                    <p>历年真题、模拟卷、备考笔记免费共享</p>
-                </div>
-                <div class="col-sm-6 col-md-3 feature-item">
-                    <i class="fa fa-comments fa-3x"></i>
-                    <h4>经验交流</h4>
-                    <p>上岸学长学姐答疑解惑,实时互动</p>
-                </div>
-                <div class="col-sm-6 col-md-3 feature-item">
-                    <i class="fa fa-bullhorn fa-3x"></i>
-                    <h4>招考资讯</h4>
-                    <p>第一时间发布吉林考公招录信息</p>
-                </div>
-                <div class="col-sm-6 col-md-3 feature-item">
-                    <i class="fa fa-users fa-3x"></i>
-                    <h4>学习氛围</h4>
-                    <p>每日打卡,共同监督,高效备考</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="resources" class="section">
-        <div class="container">
-            <h2 class="section-title">备考资源<small>Resources</small></h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 style="color:#2c3e50; font-weight:400; border-bottom:2px solid #2c3e50; padding-bottom:10px;">笔试资料</h4>
-                    <ul class="resource-list">
-                        <li><i class="fa fa-file-text-o"></i> 吉林省考历年行测真题（2015-2025）</li>
-                        <li><i class="fa fa-file-text-o"></i> 吉林省考历年申论真题及范文</li>
-                        <li><i class="fa fa-file-text-o"></i> 行测各题型专项练习题库</li>
-                        <li><i class="fa fa-file-text-o"></i> 申论热点素材与写作模板</li>
-                        <li><i class="fa fa-file-text-o"></i> 吉林时政热点汇编</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4 style="color:#2c3e50; font-weight:400; border-bottom:2px solid #2c3e50; padding-bottom:10px;">面试资料</h4>
-                    <ul class="resource-list">
-                        <li><i class="fa fa-file-text-o"></i> 吉林省考面试真题汇总</li>
-                        <li><i class="fa fa-file-text-o"></i> 结构化面试答题思路</li>
-                        <li><i class="fa fa-file-text-o"></i> 无领导小组讨论技巧</li>
-                        <li><i class="fa fa-file-text-o"></i> 面试热点预测与解析</li>
-                        <li><i class="fa fa-file-text-o"></i> 面试礼仪与表达训练</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="join" class="section" style="background-color:#f8f8f8;">
-        <div class="container">
-            <h2 class="section-title">加入我们<small>Join Us</small></h2>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <p style="color:#7f8c8d; font-weight:300; font-size:16px;">
-                        扫描下方二维码,添加管理员微信,备注「吉林省考」,即可加入备考社群。所有资料与答疑均为公益免费,期待与你一起上岸吉林。
-                    </p>
-                    <div style="background:#ffffff; display:inline-block; padding:20px; border:1px solid #ecf0f1; margin:20px 0;">
-                        <div style="width:180px; height:180px; background:#ecf0f1; display:flex; align-items:center; justify-content:center; color:#95a5a6;">
-                            <i class="fa fa-weixin fa-4x"></i>
-                        </div>
+<!-- 搜索区域 -->
+<header class="hero" id="home">
+    <div class="container inner">
+        <span class="badge-pill"><i class="fa fa-map-marker"></i> 吉林省 · 省考 / 公务员 / 事业编 / 选调生 / 教师</span>
+        <h1>吉林省公务员省考 <span>备考搭子 &amp; 企业微信群</span></h1>
+        <p class="lead">按地市、备考模块、搭子状态快速找组织，加入企业微信备考社群，一起刷题上岸。</p>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="search-box">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="搜索地市/岗位：郑州、洛阳、南阳、行测、申论搭子...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><i class="fa fa-search"></i> 搜索</button>
+                        </span>
                     </div>
-                    <p style="color:#95a5a6; font-size:13px;">社群为公益性交流平台,无任何收费环节</p>
+                </div>
+                <div class="chips">
+                    <span class="t">热门：</span>
+                    <a href="#groups">郑州</a><a href="#groups">洛阳</a><a href="#groups">南阳</a>
+                    <a href="#groups">行测刷题</a><a href="#groups">申论批改</a><a href="#groups">面试模拟</a><a href="#groups">在职备考</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</header>
 
-    <footer>
-        <div class="container">
-            <div>Copyright &copy; 2020 - 2026 吉林公务员 版权所有</div>
-            <div class="record">
-                <a class="beian" href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2025144109号-33</a>
-                <span>|</span>
-                <a class="beian" href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank">
-                    鲁公网安备 37130202372520 号
-                </a>
+<!-- 区块分类：社群列表 -->
+<section class="section" id="groups">
+    <div class="container">
+        <div class="section-head">
+            <h2 class="section-title">社群列表</h2>
+            <p class="section-sub">三种方式快速定位适合你的备考群</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="cat fade-up d1">
+                    <div class="cat-head">
+                        <div class="icon-circle"><i class="fa fa-users"></i></div>
+                        <h4>按地市分类<small>同城考友 · 线下约自习</small></h4>
+                    </div>
+                    <div class="list-group">
+                        <a href="#qrcode" class="list-group-item">郑州市考搭子群 <span class="n">328</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">洛阳市考搭子群 <span class="n">216</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">南阳市考搭子群 <span class="n">189</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">许昌市考搭子群 <span class="n">124</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">新乡市考搭子群 <span class="n">107</span> <i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <a href="#qrcode" class="more">查看全部 18 地市 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cat fade-up d2">
+                    <div class="cat-head">
+                        <div class="icon-circle"><i class="fa fa-book"></i></div>
+                        <h4>按备考模块<small>专项突破 · 精准提升</small></h4>
+                    </div>
+                    <div class="list-group">
+                        <a href="#qrcode" class="list-group-item">行测刷题搭子 <span class="n">452</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">申论写作搭子 <span class="n">301</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">真题复盘小组 <span class="n">168</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">模考打卡群 <span class="n">275</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#qrcode" class="list-group-item">面试备考社群 <span class="n">212</span> <i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <a href="#qrcode" class="more">查看全部模块 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cat fade-up d3">
+                    <div class="cat-head">
+                        <div class="icon-circle"><i class="fa fa-calendar"></i></div>
+                        <h4>搭子状态<small>按进度筛选 · 实时更新</small></h4>
+                    </div>
+                    <div class="list-group">
+                        <a href="#mate" class="list-group-item">正在找搭子 <span class="n">86</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#mate" class="list-group-item">组队打卡中 <span class="n">134</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#mate" class="list-group-item">已满员归档 <span class="n">57</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#mate" class="list-group-item">新建招募 <span class="n">42</span> <i class="fa fa-angle-right"></i></a>
+                        <a href="#mate" class="list-group-item">长期备考小组 <span class="n">93</span> <i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <a href="#mate" class="more">查看全部状态 <i class="fa fa-angle-right"></i></a>
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- 找备考搭子 -->
+<section class="section alt" id="mate">
+    <div class="container">
+        <div class="section-head">
+            <h2 class="section-title">找备考搭子</h2>
+            <p class="section-sub">近期发起的组队信息，扫码即可对接</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="mate">
+                    <div class="mate-top">
+                        <div class="avatar">郑</div>
+                        <h4>郑州行测每日 20 题<small>郑州 · 省考行测 · 目标 70+</small></h4>
+                    </div>
+                    <p>工作日每晚 20:00 线上对答案，周末一套真题限时模考，缺 2 人。</p>
+                    <div class="mate-meta"><span class="tag green">招募中</span><a href="#qrcode" class="btn btn-primary">申请加入</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="mate">
+                    <div class="mate-top">
+                        <div class="avatar">洛</div>
+                        <h4>洛阳申论互批小组<small>洛阳 · 申论写作 · 每周 2 篇</small></h4>
+                    </div>
+                    <p>轮流互改大作文，统一评分标准，已稳定运行 3 个月，缺 1 人。</p>
+                    <div class="mate-meta"><span class="tag green">招募中</span><a href="#qrcode" class="btn btn-primary">申请加入</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="mate">
+                    <div class="mate-top">
+                        <div class="avatar">南</div>
+                        <h4>南阳在职备考打卡群<small>南阳 · 在职 · 每日 2 小时</small></h4>
+                    </div>
+                    <p>专为在职考友设立，早晚各一次打卡，资料碎片化拆分，长期有效。</p>
+                    <div class="mate-meta"><span class="tag">打卡中</span><a href="#qrcode" class="btn btn-primary">申请加入</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="mate">
+                    <div class="mate-top">
+                        <div class="avatar">省</div>
+                        <h4>省考面试模拟小组<small>全省 · 面试 · 线上模拟</small></h4>
+                    </div>
+                    <p>结构化面试双人互练，录音复盘，邀请上岸学长定期点评。</p>
+                    <div class="mate-meta"><span class="tag gray">已满员</span><button class="btn btn-primary" disabled>暂时关闭</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- 二维码展示区域 -->
+<section class="section" id="qrcode">
+    <div class="container">
+        <div class="section-head">
+            <h2 class="section-title">企业微信入群二维码</h2>
+            <p class="section-sub">温馨提示：本社群仅为备考交流，非官方机构，不售卖课程</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="qr-list">
+                    <li><b>备注格式：</b>地市 + 是否应届（如：郑州-应届）</li>
+                    <li><b>通过时间：</b>工作日 2 小时内，节假日略有延迟</li>
+                    <li><b>入群须知：</b>先看置顶公告，群文件含资料索引与打卡规则</li>
+                    <li><b>群内禁止：</b>机构广告、课程推销、无关链接与刷屏</li>
+                    <li><b>二维码更新：</b>群满即换码，页面同步替换，若失效请稍后再试</li>
+                </ul>
+                <div class="tips"><i class="fa fa-info-circle"></i> 一个手机号只需添加一次，之后由小助手按地区分配对应群组。</div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="qr-panel">
+                    <!-- 这里替换成你的二维码图片地址 -->
+                    <img src="https://via.placeholder.com/220" alt="企业微信二维码" class="qr-img">
+                    <p class="text-muted" style="margin:16px 0 0;font-size:13px;">二维码有效期：定期更新</p>
+                    <p style="margin:8px 0 0;font-size:13px;"><i class="fa fa-weixin" style="color:#2dc100;"></i> 企业微信 · 吉林省考搭子社群</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 底部版权+备案 -->
+<footer>
+    <div class="container">
+        <p>© 2026 微薄利 版权所有. 商标执照</p>
+        <p class="beian">
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2025144109号</a>
+            <span class="sep">|</span>
+            <a href="https://beian.mps.gov.cn/" target="_blank" rel="nofollow"><i class="fa fa-shield"></i>鲁公网安备37130202373077号</a>
+        </p>
+    </div>
+</footer>
+
+<a href="#home" id="toTop" title="回到顶部"><i class="fa fa-angle-up"></i></a>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        var $win = $(window), $nav = $('.navbar-min'), $top = $('#toTop');
+        function onScroll() {
+            var y = $win.scrollTop();
+            $nav.toggleClass('scrolled', y > 10);
+            $top.toggleClass('show', y > 400);
+        }
+        $win.on('scroll', onScroll);
+        onScroll();
+
+        // 移动端点击导航后自动收起
+        $('.navbar-min .nav a').on('click', function () {
+            if ($win.width() < 768) $('.navbar-collapse').collapse('hide');
+        });
+    });
+</script>
 </body>
 </html>
